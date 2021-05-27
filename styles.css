@@ -87,7 +87,9 @@ a:hover {
         transition: all 0.5s;
     }
     nav ul li {
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     nav ul li a {
         font-size: 20px;
